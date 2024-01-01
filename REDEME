@@ -1,0 +1,6 @@
+##
+###RUN celery work
+celery -A engine worker --loglevel=info
+
+###RUN Flower
+celery -A engine  flower --port=5001
